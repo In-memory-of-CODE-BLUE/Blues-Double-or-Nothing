@@ -1,0 +1,23 @@
+"UnlitGeneric"
+{
+	"$baseTexture"			"bluesdoubleornothing/bdn_front_logo_color"
+	$selfillum 1
+
+	$offset 0
+
+	Proxies{
+		EntityRandom
+		{
+			resultVar $offset
+		}
+
+		Sine
+		{
+			resultVar	$color2
+			sineperiod	0.87
+			sinemin		0.6
+			sinemax		1
+			timeoffset		$offset
+		}
+	}
+}

@@ -1,0 +1,18 @@
+"UnlitGeneric"
+{
+	"$baseTexture"			"bluesdoubleornothing/bdn_light_strip_color_green"
+	$selfillum 1
+ 
+	Proxies
+	{
+		Sine
+		{
+			resultVar	$color2
+			sineperiod	0.25
+			sinemin		0.5
+			sinemax		1
+		}
+
+	}
+
+}

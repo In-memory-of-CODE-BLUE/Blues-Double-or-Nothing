@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+
+    "$baseTexture"			"bluesdoubleornothing/bdn_logo_surface_color"
+ $selfillum 1
+}

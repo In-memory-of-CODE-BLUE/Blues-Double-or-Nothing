@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+
+"$baseTexture"			"bluesdoubleornothing/bdn_button_holder_color"
+
+"$normalmapalphaenvmapmask" "1"
+	
+"$surfaceprop" "Metal"
+"$model" 1
+	
+	
+
+}
+

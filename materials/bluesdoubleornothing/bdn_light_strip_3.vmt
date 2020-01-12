@@ -1,0 +1,43 @@
+"UnlitGeneric"
+{
+	"$baseTexture"			"bluesdoubleornothing/bdn_light_strip_color"
+	$selfillum 1
+
+	$offset 0
+	$multiplier 300
+
+	$multioffset 0
+
+	$textureoffset 0
+ 
+	Proxies
+	{
+		Multiply
+		{
+			srcVar1 $offset
+			srcVar2 $multiplier
+			resultVar $multioffset
+		}
+
+		TextureTransform
+		{
+			rotateVar $multioffset
+			translateVar $textureoffset
+			resultVar $baseTextureTransform
+		}
+
+		TextureScroll
+		{
+			texturescrollvar $textureoffset
+			texturescrollrate 2
+			texturescrollangle 270.00
+		}
+
+		EntityRandom
+		{
+			resultVar $offset
+		}
+
+	}
+
+}

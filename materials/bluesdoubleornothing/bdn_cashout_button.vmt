@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+	"$baseTexture"			"bluesdoubleornothing/bdn_cashout_button_color"
+	$selfillum 1
+	$color "[0.2 1 0.2]"
+	$offset 0
+
+	Proxies{
+		Sine
+		{
+			resultVar	$color2
+			sineperiod	0.5
+			sinemin		0.5
+			sinemax		1
+		}
+	}
+}
