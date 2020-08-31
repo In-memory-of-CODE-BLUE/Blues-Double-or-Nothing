@@ -31,7 +31,7 @@ BDON_CONFIG.minJackpot = 500000
 BDON_CONFIG.maxJackpot = 1000000
 
 --This is the chance that the next double is either a double or nothing. the highter the number the higher the chance (% between 0 and 100)
-BDON_CONFIG.doubleChance = 40 --(50 is recommened, but if you think there winning jackpot to much then lower this number, or raise it its your server :)
+BDON_CONFIG.doubleChance = 99 --(50 is recommened, but if you think there winning jackpot to much then lower this number, or raise it its your server :)
 
 --This is a list of usergroups that can save/edit the machines (!saveslots)
 BDON_CONFIG.AdminRanks = {
